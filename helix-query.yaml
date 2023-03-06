@@ -1,0 +1,16 @@
+version: 1
+
+indices:
+  home:
+    include:
+      - '/**'
+    target: /query-index
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: |
+          attribute(el, 'content')
+      author:
+        select: head > meta[name="author"]
+        value: |
+          attribute(el, 'content')
