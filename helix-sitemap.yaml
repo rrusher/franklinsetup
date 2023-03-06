@@ -2,7 +2,7 @@ version: 1
 
 sitemaps:
   blog:
-    origin: https://localhost:3000
+    origin: https://main--franklinsetup--rrusher.hlx.live/
     source: /query-index.json
     destination: /sitemap.xml
     Lastmod: YYYY-MM-DD
