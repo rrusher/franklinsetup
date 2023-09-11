@@ -72,8 +72,8 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
+  background-color: unset;
+  color: #fff;
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
